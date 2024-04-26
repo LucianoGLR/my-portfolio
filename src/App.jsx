@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-// import imagen from '/TPRS7H4PN-U05RMBMAB5Z-c50f2310710c-512.jpeg';
 import imagen from '/Untitledd.png';
 import './App.css';
 
