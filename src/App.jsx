@@ -7,51 +7,39 @@ function App() {
     <div className="container">
       <div className="header-box">
         <img src={imagen} alt="foto perfil" />
-        <h1>Luciano Gallinger</h1>
+        <p className='name'>Luciano Gallinger</p>
       </div>
 
       <div className="about-box">
         <p className='my-about'>
           Hola! Soy un desarrollador junior apasionado por el mundo de la tecnología y el desarrollo web.
           <br />
+          Mi objetivo es adquirir experiencia y habilidades mientras contribuyo al desarrollo de soluciones creativas y funcionales. Aunque soy nuevo en la industria, estoy comprometido con mi crecimiento profesional y listo para enfrentar cualquier desafío que se presente en el camino.
           <br />
-          Mi objetivo es adquirir experiencia y habilidades mientras contribuyo al desarrollo de soluciones creativas y funcionales. Aunque soy relativamente nuevo en la industria, estoy comprometido con mi crecimiento profesional y listo para enfrentar cualquier desafío que se presente en el camino.
-          <br />
-          <br />
-          Mis proyectos WearFashion y Countries, me han proporcionado valiosas lecciones y experiencias prácticas.
-          <br />
-          <br />
-          Gracias por interesarte en mi perfil y acompañarme en esta emocionante travesía. ¡Estoy listo para seguir aprendiendo y creciendo junto a la comunidad de desarrollo!
+          Mis proyectos me han proporcionado valiosas lecciones y experiencias prácticas.
         </p>
       </div>
 
-      <br />
-
-      <h3 className='title'>Proyectos en los que he trabajado</h3>
+      {/* <h2 >Proyectos en los que he trabajado</h2> */}
       <div className="projects-box">
         <div className="projects-container">
           <div className="project">
-            <h4>Wearfashion App 👕</h4>
-            <p>
-              Description: "An e-commerce platform dedicated to urban fashion, offering trendy clothing options for a style-conscious demographic.
-              Features include user-friendly navigation, secure checkout, and interactive product displays."
-            </p>
+            <h4 className='title'>Wearfashion App 👕</h4>
+            <br />
             <a href="https://www.youtube.com/watch?v=78UhoOp5lmc"><img src="/imagewear.png" alt="Project Video" width="350" height="200" /></a>
             <p>Link to <a href="https://wearfashion.vercel.app/">Wearfashion</a> deploy</p>
           </div>
           <div className="project">
-            <h4>Countries App 🗺️</h4>
-            <p>
-              App for exploring countries with information and tourist activities. It has multiple filters
-              to get a search so much especify
-            </p>
+            <h4 className='title'>Countries App 🗺️</h4>
+            <br />
             <a href="https://www.youtube.com/watch?v=URL_DEL_VIDEO"><img src="/countries.png" alt="Project Video" width="350" height="200" /></a>
             <p>Link to <a href="https://countriesapp.vercel.app/">Countries App</a> deploy</p>
           </div>
         </div>
       </div>
-
-      <br />
+      {/* <br /> */}
+      {/* <br /> */}
+      {/* <br /> */}
 
       <div className='technologies-box'>
         <h3 className='title'>Tecnologias que utilizo</h3>
@@ -69,28 +57,36 @@ function App() {
         </div>
       </div>
 
+
+      {/* <br /> */}
+      
+      <br />
+
+
+
+
       <br />
 
       <h4 className='my-about'>
         Gracias por interesarte en mi perfil y acompañarme en esta emocionante travesía.
         <br />
-        ¡Estoy listo para seguir aprendiendo y creciendo junto a la comunidad de desarrollo!
+        {/* ¡Estoy listo para seguir aprendiendo y creciendo junto a la comunidad de desarrollo! */}
       </h4>
 
       <br />
 
-      <h3 className='title'>Contacta Conmigo🤳</h3>
+      {/* <h3 className='title'>Contacta Conmigo🤳</h3> */}
       <div className="footer-box">
         <div className="footer-content">
-          <div className="location-section">
+          {/* <div className="location-section">
             <h4>Ubicación</h4>
-            <p>📌Granadero Baigorria, Santa Fe, Argentina</p>
-          </div>
+          </div> */}
           <div className="contact-section">
-            <h4>Información de Contacto</h4>
+            <h3 className='contacto'>Información de Contacto</h3>
             <p><strong>📫Email:</strong> <a href="mailto:lucianogallinger@gmail.com">lucianogallinger@gmail.com</a></p>
-            <p><strong>📞Teléfono:</strong> <a href="tel:+543436403559">+54 3436-403559</a></p>
-            <p><strong>🐱GitHub:</strong> <a href="https://github.com/lucianogallinger">lucianogallinger</a></p>
+            <p><strong>📞Teléfono:</strong> <a href="tel:+543436403559">+54 9 343 640-3559</a></p>
+            <p><strong>🐱GitHub:</strong> <a href="https://github.com/LucianoGLR">LucianoGLR</a></p>
+            <p>📌Rosario, Santa Fe, Argentina</p>
           </div>
         </div>
       </div>
