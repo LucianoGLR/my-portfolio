@@ -24,14 +24,12 @@ function App() {
       <div className="projects-box">
         <div className="projects-container">
           <div className="project">
-            <h4 className='title'>Wearfashion App 👕</h4>
-            <br />
+            <h4 className='title2'>Wearfashion App 👕</h4>
             <a href="https://www.youtube.com/watch?v=78UhoOp5lmc"><img src="/imagewear.png" alt="Project Video" width="350" height="200" /></a>
             <p>Link to <a href="https://wearfashion.vercel.app/">Wearfashion</a> deploy</p>
           </div>
           <div className="project">
-            <h4 className='title'>Countries App 🗺️</h4>
-            <br />
+            <h4 className='title2'>Countries App 🗺️</h4>
             <a href="https://www.youtube.com/watch?v=URL_DEL_VIDEO"><img src="/countries.png" alt="Project Video" width="350" height="200" /></a>
             <p>Link to <a href="https://countriesapp.vercel.app/">Countries App</a> deploy</p>
           </div>
